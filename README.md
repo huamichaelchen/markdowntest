@@ -144,10 +144,26 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-# Task Lists
+
+# Writing on Github
+## Task Lists
 
 - [ ] a bigger project
  - [x] first butask #1234
  - [x] follow up subtask #4321
  - [x] final subtask cc @mention
 - [ ] a separate task
+
+## References
+
+Certain references are auto-linked:
+
+* SHA: a5c3785ed8d6a35868bc169f07e40e889087fd2e
+* User@SHA: jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+* User/Repository@SHA: jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+* #Num: #26
+* GH-Num: GH-26
+* User#Num: jlord#26
+* User/Repository#Num: jlord/sheetsee.js#26
+
+
