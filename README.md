@@ -105,3 +105,25 @@ print s
 No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
+
+# Tables
+
+Tables aren't part of the core Markdown spec, but they are part of GFM and Markdown Here supports them.
+They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting 
+from another application. 
+
+```
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      | $1    |
+
+The outer pipes (|) are optional, and you don't need to make the raw Markdown lineup prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
