@@ -186,3 +186,37 @@ You can also use raw HTML in your Markdown, and it'll MOSTLY work pretty well.
     <dt>Markdown in HTML</dt>
     <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
+
+# Horizontal Rule
+
+Three or more ...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___ 
+
+underscores
+
+# Line Breaks
+
+My basic recommendation for learning how line breaks work is to experiment and 
+discover -- hit <Enter> once (i.e., insert one newline), then hit it twice 
+(i.e., insert two newlines0, see what happens. You'll soon learn to get what you want. 
+"Markdown Toggle" is your friend.
+
+Here are some things to try out:
+
+```
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraphs*.
+
+This line is also a separate paragraph, but....
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+```
